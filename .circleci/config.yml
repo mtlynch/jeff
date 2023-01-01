@@ -6,7 +6,7 @@ jobs:
       - image: redis
       - image: memcached
 
-    working_directory: /go/src/github.com/abraithwaite/jeff
+    working_directory: /go/src/github.com/mtlynch/jeff
 
     steps:
       - checkout

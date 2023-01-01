@@ -1,4 +1,4 @@
-module github.com/abraithwaite/jeff
+module github.com/mtlynch/jeff
 
 go 1.14
 

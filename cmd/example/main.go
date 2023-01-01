@@ -6,11 +6,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/abraithwaite/jeff"
-	redis_store "github.com/abraithwaite/jeff/redis"
 	"github.com/gomodule/redigo/redis"
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
+	"github.com/mtlynch/jeff"
+	redis_store "github.com/mtlynch/jeff/redis"
 )
 
 var router = mux.NewRouter()

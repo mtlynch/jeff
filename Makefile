@@ -39,4 +39,4 @@ docker:
 
 .PHONY: test-ci
 test-ci:
-	$Qdocker run -v $(shell pwd):/go/src/github.com/abraithwaite/jeff -it jeff-ci:$(VERSION) make deps && make test
+	$Qdocker run -v $(shell pwd):/go/src/github.com/mtlynch/jeff -it jeff-ci:$(VERSION) make deps && make test
